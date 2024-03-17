@@ -1,0 +1,48 @@
+@import '../../../styles.scss';
+@import '../../../styles/__colors.scss';
+
+:host {
+  footer {
+    width: 100%;
+    background-color: $white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-bottom: 1%;
+      justify-content: space-between;
+
+      padding-top: 2.5em;
+      @media (max-width: 47em) {
+        margin-inline: 10%;
+      }
+      margin-inline: 20%;
+
+      .column {
+        display: flex;
+        flex-direction: column;
+
+        row-gap: 14px;
+
+        .contact-icons {
+          display: flex;
+          flex-direction: row;
+          column-gap: 10px;
+        }
+
+        span {
+          color: $dark-gray;
+          font-size: 12px;
+          font-weight: 500;
+          cursor: pointer;
+
+          &:hover {
+            transition: 1.5s;
+            color: $primary-blue;
+          }
+        }
+      }
+    }
+  }
+}

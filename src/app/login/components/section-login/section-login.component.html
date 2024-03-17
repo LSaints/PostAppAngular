@@ -1,0 +1,97 @@
+<div class="container">
+  <div class="container-side logo-side">
+    <div class="logo-content">
+      <img src="../../../../assets/OnlyPostsBackgroundBlue.png" />
+      <span>
+        Inscreva-se para apoiar<br />
+        seus criadores favoritos
+      </span>
+    </div>
+  </div>
+  <div class="container-side login-side">
+    <div class="login-content">
+      <!-- Form para Login -->
+      <form *ngIf="!isRegisterForm" [formGroup]="loginForm" class="form-login" (ngSubmit)="onSubmitLogin()">
+        <img id="logo" src="../../../../assets/OnlyPostsBackgroundWhite.png" />
+        <span id="logo-content">
+          Inscreva-se para apoiar<br />
+          seus criadores favoritos
+        </span>
+        <br />
+        <span id="login-span">Faça login</span>
+        <input
+          formControlName="Email"
+          type="email"
+          placeholder="E-mail"
+          class="input-login"
+        />
+        <br />
+        <input
+          formControlName="Password"
+          type="password"
+          placeholder="Senha"
+          class="input-login"
+        />
+        <br />
+        <button
+          type="submit"
+          [ngClass]="{
+            'btn-active': loginForm.valid,
+            'btn-inactive': !loginForm.valid
+          }"
+          [disabled]="!loginForm.valid"
+        >
+          Login
+        </button>
+        <br />
+        <span id="subscribe" (click)="switchForm()">Inscreva-se</span>
+      </form>
+      <!-- Form para Login -->
+
+      <!-- Form para registro -->
+      <form *ngIf="isRegisterForm" [formGroup]="registerForm" class="form-login" (ngSubmit)="onSubmitRegister()">
+        <img id="logo" src="../../../../assets/OnlyPostsBackgroundWhite.png" />
+        <span id="logo-content">
+          Inscreva-se para apoiar<br />
+          seus criadores favoritos
+        </span>
+        <br />
+        <span id="login-span">Crie sua conta</span>
+        <input
+          formControlName="Username"
+          type="text"
+          placeholder="Nome"
+          class="input-login"
+        />
+        <br>
+        <input
+          formControlName="Email"
+          type="email"
+          placeholder="E-mail"
+          class="input-login"
+        />
+        <br />
+        <input
+          formControlName="Password"
+          type="password"
+          placeholder="Senha"
+          class="input-login"
+        />
+        <br />
+        <button
+          type="submit"
+          [ngClass]="{
+            'btn-active': registerForm.valid,
+            'btn-inactive': !registerForm.valid
+          }"
+          [disabled]="!registerForm.valid"
+        >
+          Login
+        </button>
+        <br />
+        <span id="subscribe" (click)="switchForm()"><span id="label-span">Já tem uma conta? </span>Login</span>
+      </form>
+      <!-- Form para registro -->
+    </div>
+  </div>
+</div>
