@@ -1,6 +1,6 @@
 ## Descrição:
 
-Projeto pessoal onde utilizei o framework Angular para desenvolver um site inovador, com funcionalidades semelhantes ao popular serviço OnlyFans. No entanto, em vez de se concentrar em conteúdo multimídia, este projeto se destina a consumir uma API criada por mim mesmo, utilizando o framework .NET 6. A API foi especialmente projetada para a criação dinâmica de texto, oferecendo aos usuários uma plataforma para compartilhar e consumir conteúdo textual de forma exclusiva.
+Projeto pessoal onde utilizei o framework Angular para desenvolver um site, com funcionalidades semelhantes ao popular serviço OnlyFans. No entanto, em vez de se concentrar em conteúdo multimídia, este projeto se destina a consumir conteudo de uma API criada por mim mesmo, utilizando o framework .NET 6. A API foi especialmente projetada para a criação dinâmica de texto, oferecendo aos usuários uma plataforma para compartilhar e consumir conteúdo textual de forma exclusiva.
 
 ## Recursos Principais:
 
