@@ -81,6 +81,10 @@
             flex-direction: column;
 
             padding-left: 10px;
+
+            .sub-author {
+              color: $dark-gray;
+            }
           }
 
           .profile-image {
