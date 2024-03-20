@@ -1,0 +1,101 @@
+@import url(../../../styles.scss);
+@import '../../../styles/_colors.scss';
+
+:host {
+  @media (max-width: 39.7em) {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    row-gap: 10px;
+
+    width: fit-content;
+
+    font-weight: 500;
+    font-size: 1.3em;
+
+    @media (max-width: 64em) {
+      span {
+        display: none;
+        height: 10px;
+      }
+    }
+
+    .header {
+      padding-top: 10px;
+      .profile-image {
+        width: 40px;
+        height: 40px;
+
+        background-color: black;
+        border-radius: 100%;
+      }
+    }
+
+    .item-list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: $dark-gray;
+
+      height: 2em;
+      padding-left: 0.3em;
+      border-radius: 18px;
+
+      @media (max-width: 64em) {
+        padding-left: 10px;
+        span {
+          display: none;
+        }
+      }
+
+      &:hover {
+        transition: 0.2s;
+        background-color: $secondary-blue;
+        color: $primary-blue;
+        cursor: pointer;
+      }
+
+      .icon {
+        padding-right: 8px;
+      }
+    }
+
+    .selected {
+      color: black;
+    }
+
+    button {
+      display: flex;
+      flex-direction: row;
+      background-color: $primary-blue;
+      border-radius: 25px;
+      padding-inline: 18px;
+
+      border: none;
+      color: $white;
+
+      height: 40px;
+      font-size: 16px;
+      align-items: center;
+
+      @media (max-width: 64em) {
+        height: 40px;
+      }
+
+      &:hover {
+        transition: 0.2s;
+        background-color: $dark-blue;
+        cursor: pointer;
+      }
+
+      span {
+        padding-left: 16px;
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginModule } from './login/login.module';
+import { HomeModule } from './pages/home/home.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { LoginModule } from './login/login.module';
     ReactiveFormsModule,
     FormsModule,
     LoginModule,
-    RouterOutlet
+    RouterOutlet,
+    HomeModule
   ],
 })
 export class AppModule { }
