@@ -1,0 +1,19 @@
+@import url(../../../../../styles.scss);
+@import '../../../../../styles/_colors';
+
+:host {
+  .container {
+    border: 0.1px $light-gray solid;
+    width: 50vw;
+    height: 100vh;
+
+    @media (max-width: 48em) {
+      width: 88.6vw;
+    }
+
+    // 596
+    @media (max-width: 37.25em) {
+      width: 100vw;
+    }
+  }
+}

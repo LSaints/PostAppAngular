@@ -1,0 +1,22 @@
+@import url(../../../../styles.scss);
+@import '../../../../styles.scss';
+
+:host {
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 20vw;
+
+    app-side-bar {
+      margin-right: 30px;
+    }
+    @media (max-width: 90em) {
+      width: 100%;
+      padding-inline: 0px
+    }
+
+    @media (max-width: 64em) {
+      padding-inline: 0px
+    }
+  }
+}

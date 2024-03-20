@@ -38,6 +38,7 @@ export class SectionLoginComponent {
         this.authData = data;
         console.log('Data recived:', this.authData);
         localStorage.setItem('user', JSON.stringify(this.authData));
+        window.location.href = "/home";
       },
       (error) => {
         window.alert(error['error']['message']);
