@@ -7,6 +7,9 @@
     width: 50vw;
     height: 100vh;
 
+    overflow-y: auto; /* Adiciona uma barra de rolagem se o conteúdo exceder a altura da caixa */
+    position: relative;
+
     @media (max-width: 48em) {
       width: 88.6vw;
     }

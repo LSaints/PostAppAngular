@@ -2,7 +2,6 @@
 @import '../../../styles/_colors.scss';
 
 :host {
-
   @media (max-width: 39.7em) {
     display: none;
   }
@@ -98,7 +97,5 @@
         padding-left: 16px;
       }
     }
-
-
   }
 }

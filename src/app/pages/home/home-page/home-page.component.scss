@@ -9,6 +9,7 @@
 
     app-side-bar {
       margin-right: 30px;
+      z-index: 999;
     }
     @media (max-width: 90em) {
       width: 100%;
