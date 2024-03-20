@@ -4,11 +4,13 @@
 :host {
   .container {
     border: 0.1px $light-gray solid;
+    border-top: none;
     width: 50vw;
     height: 100vh;
-
-    overflow-y: auto; /* Adiciona uma barra de rolagem se o conteúdo exceder a altura da caixa */
-    position: relative;
+    div {
+      background-color: $dark-blue;
+      height: 300px;
+    }
 
     @media (max-width: 48em) {
       width: 88.6vw;

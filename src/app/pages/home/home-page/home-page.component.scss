@@ -7,9 +7,19 @@
     flex-direction: row;
     padding-inline: 20vw;
 
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      app-title-bar {
+        position: -webkit-sticky; /* For Safari */
+        position: sticky;
+        top: 0;
+      }
+    }
+
     app-side-bar {
       margin-right: 30px;
-      z-index: 999;
+      position: relative;
     }
     @media (max-width: 90em) {
       width: 100%;

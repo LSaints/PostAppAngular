@@ -7,6 +7,10 @@
   }
 
   .container {
+
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
 
