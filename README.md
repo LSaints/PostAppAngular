@@ -10,6 +10,8 @@ Projeto pessoal onde utilizei o framework Angular para desenvolver um site, com 
 
 **Screenshots:** 
 ![screencapture-localhost-4200-2024-03-16-22_13_05](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/1d3867d8-33f0-46a6-80a1-45b30fe0b268)
+![screencapture-localhost-4200-home-2024-03-27-21_42_13](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/7321b0dc-f04e-4e57-b9c3-53ea507cfbc8)
+
 
 ## Tecnologias Utilizadas:
 
