@@ -1,7 +1,10 @@
 <div class="container">
   <app-side-bar/>
-  <div>
-    <app-title-bar/>
+  <div class="content-wrapper">
+    <app-title-bar [title]="'PÁGINA INICIAL'"/>
+    <app-text-editor/>
     <app-feed/>
   </div>
+  <app-profiles-cards/>
 </div>
+<app-footer/>

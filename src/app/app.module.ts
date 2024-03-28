@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginModule } from './login/login.module';
 import { HomeModule } from './pages/home/home.module';
+import { PostCreateComponent } from './pages/post/post-create/post-create.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HomeModule } from './pages/home/home.module';
     FormsModule,
     LoginModule,
     RouterOutlet,
-    HomeModule
+    HomeModule,
+    PostCreateComponent
   ],
 })
 export class AppModule { }
