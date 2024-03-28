@@ -1,0 +1,54 @@
+@import url(../../../../../styles.scss);
+@import '../../../../../styles/_colors.scss';
+
+:host {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+
+    padding-top: 1em;
+    padding-inline: 1em;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    .suggestion {
+      font-weight: 600;
+      color: $dark-gray;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row;
+
+      background-color: $dark-blue;
+      width: 20em;
+      height: 8em;
+
+      border-radius: 10px;
+
+      padding-top: 16px;
+      padding-left: 16px;
+
+      .profile-image {
+        width: 6em;
+        height: 6em;
+
+        background-color: black;
+        border-radius: 100%;
+      }
+
+      .title {
+        padding-top: 4em;
+        padding-left: 1em;
+
+        font-weight: 500;
+        color: $white;
+      }
+    }
+  }
+}
+

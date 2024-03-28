@@ -1,0 +1,30 @@
+@import url(../../../styles.scss);
+@import '../../../styles/_colors';
+
+:host {
+  .container {
+    .input {
+      width: 99.5%;
+      height: 8.1em;
+
+      border-color: $light-gray;
+      outline: none;
+      resize: none;
+
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;;
+
+      @media (max-width: 48em) {
+      }
+
+      @media (max-width: 64em) {
+      }
+
+      &:focus {
+        border: 2px solid $primary-blue;
+      }
+
+    }
+
+  }
+}

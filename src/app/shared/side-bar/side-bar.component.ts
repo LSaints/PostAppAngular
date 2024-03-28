@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, input } from '@angular/core';
 
 @Component({
   selector: 'app-side-bar',
@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './side-bar.component.scss'
 })
 export class SideBarComponent {
+
   navigateTo(url: any) {
-    window.location.pathname = "userId"
+    window.location.pathname = `${url}`
   }
 }

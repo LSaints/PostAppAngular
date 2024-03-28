@@ -5,18 +5,19 @@
   .container {
     border: 0.1px $light-gray solid;
     border-top: none;
-    width: 50vw;
-    height: 100vh;
-    div {
-      background-color: $dark-blue;
-      height: 300px;
+
+    margin-bottom: 10px;
+    border-bottom: none;
+    .content-wrapper {
+      div {
+        height: 300px;
+      }
     }
 
-    @media (max-width: 48em) {
-      width: 88.6vw;
+    @media (max-width: 90em) {
+      width: 86vw;
     }
 
-    // 596
     @media (max-width: 37.25em) {
       width: 100vw;
     }

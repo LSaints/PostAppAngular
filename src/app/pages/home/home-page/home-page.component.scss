@@ -1,8 +1,9 @@
 @import url(../../../../styles.scss);
 @import '../../../../styles.scss';
 
+
 :host {
-  .container {
+    .container {
     display: flex;
     flex-direction: row;
     padding-inline: 20vw;
@@ -10,10 +11,22 @@
     .content-wrapper {
       display: flex;
       flex-direction: column;
+
       app-title-bar {
-        position: -webkit-sticky; /* For Safari */
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
+      }
+    }
+
+    app-profiles-cards {
+
+      position: -webkit-sticky;
+      position: relative;
+      top: 0;
+      @media  (max-width: 768px) {
+        display: none;
+        padding-right: 0px;
       }
     }
 
@@ -29,5 +42,6 @@
     @media (max-width: 64em) {
       padding-inline: 0px
     }
+
   }
 }

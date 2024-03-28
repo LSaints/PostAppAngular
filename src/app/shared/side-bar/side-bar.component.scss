@@ -55,6 +55,7 @@
         span {
           display: none;
         }
+
       }
 
       &:hover {
@@ -65,7 +66,7 @@
       }
 
       .icon {
-        padding-right: 8px;
+        padding-right: 18px;
       }
     }
 
@@ -88,7 +89,14 @@
       align-items: center;
 
       @media (max-width: 64em) {
+        width: 40px;
         height: 40px;
+        padding-left: 6px;
+        margin-left: 6px;
+        .icon {
+          margin: 0;
+          padding-right: 0;
+        }
       }
 
       &:hover {
