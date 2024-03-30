@@ -9,8 +9,10 @@ Projeto pessoal onde utilizei o framework Angular para desenvolver um site, com 
 - **Funcionalidades semelhantes ao OnlyFans:** Inspirado no modelo de negócio do OnlyFans, este projeto oferece aos usuários a capacidade de criar e acessar conteúdo textual exclusivo, com recursos de monetização.
 
 **Screenshots:** 
-![screencapture-localhost-4200-2024-03-16-22_13_05](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/1d3867d8-33f0-46a6-80a1-45b30fe0b268)
-![screencapture-localhost-4200-home-2024-03-27-21_42_13](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/7321b0dc-f04e-4e57-b9c3-53ea507cfbc8)
+![screencapture-localhost-4200-2024-03-30-09_36_56](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/e34eec7e-4b91-4bf2-9fbb-749921bba90b)
+![screencapture-localhost-4200-home-2024-03-30-09_37_18](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/8ca37490-bb12-41a1-8778-0d2f69504248)
+![screencapture-localhost-4200-userId-2024-03-30-09_42_09](https://github.com/LSaints/OnlyPostsAngular/assets/132153413/8fde359c-50fc-4b86-98c2-ee4f35b490ec)
+
 
 
 ## Tecnologias Utilizadas:
